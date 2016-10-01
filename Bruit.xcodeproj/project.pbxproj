@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		3001C77F1C6283D0007FC362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001C77E1C6283D0007FC362 /* AppDelegate.swift */; };
-		3001C7811C6283D0007FC362 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001C7801C6283D0007FC362 /* ViewController.swift */; };
-		3001C7841C6283D0007FC362 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3001C7821C6283D0007FC362 /* Main.storyboard */; };
 		3001C7861C6283D0007FC362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3001C7851C6283D0007FC362 /* Assets.xcassets */; };
 		3001C7891C6283D0007FC362 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3001C7871C6283D0007FC362 /* LaunchScreen.storyboard */; };
+		3001C7931C6288F0007FC362 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001C7921C6288F0007FC362 /* MainVC.swift */; };
+		3001C7991C6291B7007FC362 /* BruitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001C7981C6291B7007FC362 /* BruitItem.swift */; };
+		3001C79B1C629A8E007FC362 /* NeighourItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001C79A1C629A8E007FC362 /* NeighourItem.swift */; };
+		3001C79D1C629AFA007FC362 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001C79C1C629AFA007FC362 /* DataProvider.swift */; };
+		3001C7A01C64C780007FC362 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001C79F1C64C780007FC362 /* Colors.swift */; };
+		301653E71C68E20000D7117F /* AddBruitItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301653E61C68E20000D7117F /* AddBruitItemView.swift */; };
+		307548861C70E09A006B30D9 /* P2PCommManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307548851C70E09A006B30D9 /* P2PCommManager.swift */; };
+		307548881C70E362006B30D9 /* Keetchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307548871C70E362006B30D9 /* Keetchi.swift */; };
+		30D6ED271C6B2ABC006BE5D3 /* FormFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6ED261C6B2ABC006BE5D3 /* FormFactor.swift */; };
+		30D6ED291C6B68AC006BE5D3 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6ED281C6B68AC006BE5D3 /* Util.swift */; };
+		30EE3D661C6D4075006610C9 /* ShowNeighboursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EE3D651C6D4075006610C9 /* ShowNeighboursView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3001C77B1C6283D0007FC362 /* Bruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3001C77E1C6283D0007FC362 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3001C7801C6283D0007FC362 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3001C7831C6283D0007FC362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3001C7851C6283D0007FC362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3001C7881C6283D0007FC362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3001C78A1C6283D0007FC362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3001C7921C6288F0007FC362 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		3001C7981C6291B7007FC362 /* BruitItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BruitItem.swift; sourceTree = "<group>"; };
+		3001C79A1C629A8E007FC362 /* NeighourItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeighourItem.swift; sourceTree = "<group>"; };
+		3001C79C1C629AFA007FC362 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		3001C79F1C64C780007FC362 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		301653E61C68E20000D7117F /* AddBruitItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBruitItemView.swift; sourceTree = "<group>"; };
+		307548851C70E09A006B30D9 /* P2PCommManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P2PCommManager.swift; sourceTree = "<group>"; };
+		307548871C70E362006B30D9 /* Keetchi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keetchi.swift; sourceTree = "<group>"; };
+		30D6ED261C6B2ABC006BE5D3 /* FormFactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormFactor.swift; sourceTree = "<group>"; };
+		30D6ED281C6B68AC006BE5D3 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		30EE3D651C6D4075006610C9 /* ShowNeighboursView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowNeighboursView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +73,62 @@
 			isa = PBXGroup;
 			children = (
 				3001C77E1C6283D0007FC362 /* AppDelegate.swift */,
-				3001C7801C6283D0007FC362 /* ViewController.swift */,
-				3001C7821C6283D0007FC362 /* Main.storyboard */,
 				3001C7851C6283D0007FC362 /* Assets.xcassets */,
 				3001C7871C6283D0007FC362 /* LaunchScreen.storyboard */,
 				3001C78A1C6283D0007FC362 /* Info.plist */,
+				3001C7901C628439007FC362 /* ViewControllers */,
+				3001C7911C628454007FC362 /* DataModels */,
+				307548831C70DFE1006B30D9 /* Communications */,
+				307548841C70E014006B30D9 /* ODD */,
+				3001C79E1C64C756007FC362 /* Util */,
 			);
 			path = Bruit;
+			sourceTree = "<group>";
+		};
+		3001C7901C628439007FC362 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3001C7921C6288F0007FC362 /* MainVC.swift */,
+				301653E61C68E20000D7117F /* AddBruitItemView.swift */,
+				30EE3D651C6D4075006610C9 /* ShowNeighboursView.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3001C7911C628454007FC362 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				3001C7981C6291B7007FC362 /* BruitItem.swift */,
+				3001C79A1C629A8E007FC362 /* NeighourItem.swift */,
+				3001C79C1C629AFA007FC362 /* DataProvider.swift */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		3001C79E1C64C756007FC362 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				30D6ED261C6B2ABC006BE5D3 /* FormFactor.swift */,
+				3001C79F1C64C780007FC362 /* Colors.swift */,
+				30D6ED281C6B68AC006BE5D3 /* Util.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		307548831C70DFE1006B30D9 /* Communications */ = {
+			isa = PBXGroup;
+			children = (
+				307548851C70E09A006B30D9 /* P2PCommManager.swift */,
+			);
+			name = Communications;
+			sourceTree = "<group>";
+		};
+		307548841C70E014006B30D9 /* ODD */ = {
+			isa = PBXGroup;
+			children = (
+				307548871C70E362006B30D9 /* Keetchi.swift */,
+			);
+			name = ODD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,11 +158,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Asanga Udugama";
 				TargetAttributes = {
 					3001C77A1C6283D0007FC362 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2YTD8K4PEW;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -124,7 +193,6 @@
 			files = (
 				3001C7891C6283D0007FC362 /* LaunchScreen.storyboard in Resources */,
 				3001C7861C6283D0007FC362 /* Assets.xcassets in Resources */,
-				3001C7841C6283D0007FC362 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +203,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3001C7811C6283D0007FC362 /* ViewController.swift in Sources */,
+				30D6ED291C6B68AC006BE5D3 /* Util.swift in Sources */,
+				3001C7A01C64C780007FC362 /* Colors.swift in Sources */,
+				3001C79B1C629A8E007FC362 /* NeighourItem.swift in Sources */,
+				301653E71C68E20000D7117F /* AddBruitItemView.swift in Sources */,
+				3001C7991C6291B7007FC362 /* BruitItem.swift in Sources */,
+				3001C79D1C629AFA007FC362 /* DataProvider.swift in Sources */,
+				307548861C70E09A006B30D9 /* P2PCommManager.swift in Sources */,
+				30D6ED271C6B2ABC006BE5D3 /* FormFactor.swift in Sources */,
 				3001C77F1C6283D0007FC362 /* AppDelegate.swift in Sources */,
+				307548881C70E362006B30D9 /* Keetchi.swift in Sources */,
+				3001C7931C6288F0007FC362 /* MainVC.swift in Sources */,
+				30EE3D661C6D4075006610C9 /* ShowNeighboursView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3001C7821C6283D0007FC362 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3001C7831C6283D0007FC362 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3001C7871C6283D0007FC362 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -175,8 +245,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -220,8 +292,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -240,6 +314,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -249,10 +324,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Bruit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asanga.Bruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -260,10 +340,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Bruit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asanga.Bruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -286,6 +371,7 @@
 				3001C78F1C6283D0007FC362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
