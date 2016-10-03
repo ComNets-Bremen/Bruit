@@ -38,7 +38,7 @@ class MainVC: UIViewController {
         super.viewDidLoad()
 
         let ff = FormFactor.getMainVCFFValues()
-        print("view did load on main called")
+//        print("view did load on main called")
         
         view.backgroundColor = Colors.viewBackgroundColor
         
@@ -117,7 +117,8 @@ class MainVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
-        print("view will appear on main called")
+//        print("device type is " + UIDevice.current.model)
+//        print("view will appear on main called")
         
     }
 
@@ -126,15 +127,15 @@ class MainVC: UIViewController {
     }
 
     func addPressed() {
-        print("Add Pressed")
+//        print("Add Pressed")
         
-        for i in 0..<(dataProvider?.getItemCount() ?? 0) {
-            let bruitItem: BruitItem = (dataProvider?.getItemUsingIndex(i))!
-            
-            print("item: \(bruitItem.shortDesc), selected: \(bruitItem.itemSelected), goodness value: \(bruitItem.goodnessValue) ")
-           
-        }
+//        for i in 0..<(dataProvider?.getItemCount() ?? 0) {
+//            let bruitItem: BruitItem = (dataProvider?.getItemUsingIndex(i))!
         
+//            print("item: \(bruitItem.shortDesc), selected: \(bruitItem.itemSelected), goodness value: \(bruitItem.goodnessValue) ")
+//           
+//        }
+    
         UIGraphicsBeginImageContext(view.bounds.size);
         view.layer.render(in: UIGraphicsGetCurrentContext()!)
         let screenShot: UIImage = UIGraphicsGetImageFromCurrentImageContext()!;
@@ -160,7 +161,7 @@ class MainVC: UIViewController {
     }
     
     func showNeighboursPressed() {
-        print("Show Neighbours Pressed")
+//        print("Show Neighbours Pressed")
         UIGraphicsBeginImageContext(view.bounds.size);
         view.layer.render(in: UIGraphicsGetCurrentContext()!)
         let screenShot: UIImage = UIGraphicsGetImageFromCurrentImageContext()!;
@@ -345,7 +346,7 @@ extension MainVC: UITableViewDelegate, UITableViewDataSource {
         tableView.beginUpdates()
         tableView.endUpdates()
         
-        print("You selected cell #\((indexPath as NSIndexPath).row)! \(bruitItem.shortDesc)")
+//        print("You selected cell #\((indexPath as NSIndexPath).row)! \(bruitItem.shortDesc)")
     }
 
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
@@ -356,7 +357,7 @@ extension MainVC: UITableViewDelegate, UITableViewDataSource {
         tableView.beginUpdates()
         tableView.endUpdates()
         
-        print("You deselected cell #\((indexPath as NSIndexPath).row)! \(bruitItem.shortDesc)")
+//        print("You deselected cell #\((indexPath as NSIndexPath).row)! \(bruitItem.shortDesc)")
         
     }
     
@@ -485,7 +486,7 @@ class BruitItemViewCell: UITableViewCell {
             largeItemImageView.isHidden = true
             bruitItem?.itemSelected = false
         }
-        print("setSelected for \(bruitItem?.shortDesc) called")
+//        print("setSelected for \(bruitItem?.shortDesc) called")
         
     }
     
@@ -538,7 +539,7 @@ class BruitItemViewCell: UITableViewCell {
         y = y + itemLongDescLabel.frame.size.height + 5
         largeItemImageView.frame = CGRect(x: x, y: y, width: suitableImageSize.width, height: suitableImageSize.height)
        
-        print("item \(bruitItem?.shortDesc) rendered")
+//        print("item \(bruitItem?.shortDesc) rendered")
     }
     
     func starTapped(_ gestureRecognizer: UITapGestureRecognizer) {

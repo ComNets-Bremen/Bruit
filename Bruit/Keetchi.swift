@@ -42,14 +42,14 @@ class Keetchi: NSObject {
                                         userInfo: nil, repeats: true)
         RunLoop.main.add(timer, forMode: RunLoopMode.commonModes)
         
-        print("Keetchi activities started ...")
+//        print("Keetchi activities started ...")
     }
     
     func performKeetchiActivities() {
         OperationQueue.main.addOperation {
-            let date = Date()
+//            let date = Date()
         
-            print("\(date) - performKeetchiActivities() called")
+//            print("\(date) - performKeetchiActivities() called")
             
             if self.dataProvider?.getItemCount() == 0 {
                 return
@@ -84,9 +84,9 @@ class Keetchi: NSObject {
                 }
             }
             
-            for i in 0 ..< sortedItemList.count {
-                print("item: \(sortedItemList[i].shortDesc), \(sortedItemList[i].goodnessValue)")
-            }
+//            for i in 0 ..< sortedItemList.count {
+//                print("item: \(sortedItemList[i].shortDesc), \(sortedItemList[i].goodnessValue)")
+//            }
             
             
             // get neighbour list
@@ -127,12 +127,12 @@ class Keetchi: NSObject {
                 let index = Int(arc4random_uniform(UInt32(topHalf)))
                 selectedBruitItem = sortedItemList[index]
                 itemSelected = true
-                print("significant change - selected \(selectedBruitItem?.shortDesc) with \(selectedBruitItem?.goodnessValue)")
+//                print("significant change - selected \(selectedBruitItem?.shortDesc) with \(selectedBruitItem?.goodnessValue)")
             } else {
                 let index = Int(arc4random_uniform(UInt32(bottomHalf))) + topHalf
                 selectedBruitItem = sortedItemList[index]
                 itemSelected = true
-                print("insignificant change - selected \(selectedBruitItem?.shortDesc) with \(selectedBruitItem?.goodnessValue)")
+//                print("insignificant change - selected \(selectedBruitItem?.shortDesc) with \(selectedBruitItem?.goodnessValue)")
             }
             
             if itemSelected {
@@ -174,8 +174,8 @@ extension Keetchi: P2PCommManagerDelegate {
             var imageData: Data?
             
             if messageType == "Data" {
-                print("data received - \(itemDict["dataName"])")
-                print(" short desc \(itemDict["shortDesc"])")
+//                print("data received - \(itemDict["dataName"])")
+//                print(" short desc \(itemDict["shortDesc"])")
                 
                 dataName = (itemDict["dataName"] as? String)!
                 shortDesc = (itemDict["shortDesc"] as? String)!
@@ -201,7 +201,7 @@ extension Keetchi: P2PCommManagerDelegate {
                 }
                 
             } else if messageType == "Feedback" {
-                print("feedback received - \(itemDict["dataName"])")
+//                print("feedback received - \(itemDict["dataName"])")
                 
                 dataName = (itemDict["dataName"] as? String)!
                 goodnessValue = (itemDict["goodnessValue"] as? Int)!

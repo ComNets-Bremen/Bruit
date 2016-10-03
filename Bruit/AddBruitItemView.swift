@@ -66,7 +66,7 @@ class AddBruitItemView: UIView {
         addSubview(longDescTextView!)
         
         itemImage = UIImage(named: "camera_icon")
-        print("image dim width \(itemImage?.size.width), height \(itemImage?.size.height)")
+//        print("image dim width \(itemImage?.size.width), height \(itemImage?.size.height)")
         let suitableImageSize: CGSize = FormFactor.getSuitableImageSize(
             CGSize(width: (ff.viewWidth - 10), height: (ff.rowHeight * 3)),
             imageSize: CGSize(width: itemImage!.size.width, height: itemImage!.size.height))
@@ -194,7 +194,7 @@ class AddBruitItemView: UIView {
     }
     
     func imageTapped(_ gestureRecognizer: UITapGestureRecognizer) {
-        print("image tapped")
+//        print("image tapped")
         
         addBruitItemViewDelegate?.pickImage()
         
@@ -219,7 +219,7 @@ class AddBruitItemView: UIView {
 //            print("quality level \(qualityLevel), image size \(pickedImageData.length)")
         }
         
-        print("quality level \(qualityLevel), image size \(pickedImageData.count)")
+//        print("quality level \(qualityLevel), image size \(pickedImageData.count)")
         itemImage = UIImage(data: pickedImageData)
 //        print("image dim width \(itemImage?.size.width), height \(itemImage?.size.height)")
         let suitableImageSize: CGSize = FormFactor.getSuitableImageSize(

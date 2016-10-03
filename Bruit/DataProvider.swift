@@ -29,11 +29,11 @@ class DataProvider: NSObject {
     func loadBruitItems() {
         let directoryPath: NSString = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.allDomainsMask, true).first! as NSString
         let filePath = directoryPath.appendingPathComponent(dataFileName)
-        print("looking for \(filePath)")
+//        print("looking for \(filePath)")
         if FileManager.default.fileExists(atPath: filePath) {
-            print("file found... loading")
+//            print("file found... loading")
             self.itemList = (NSKeyedUnarchiver.unarchiveObject(withFile: filePath) as? [BruitItem])!
-            print("item count - \(self.itemList.count)")
+//            print("item count - \(self.itemList.count)")
         }
     }
     
@@ -41,9 +41,9 @@ class DataProvider: NSObject {
         
         let directoryPath: NSString = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.allDomainsMask, true).first! as NSString
         let filePath = directoryPath.appendingPathComponent(dataFileName)
-        print("looking for \(filePath)")
+//        print("looking for \(filePath)")
         if FileManager.default.fileExists(atPath: filePath) {
-            print("file found... deleting")
+//            print("file found... deleting")
             do {
                 try FileManager.default.removeItem(atPath: filePath)
             } catch {
@@ -51,8 +51,8 @@ class DataProvider: NSObject {
             }
         }
         
-        print("writing to file...")
-        print("item count - \(self.itemList.count)")
+//        print("writing to file...")
+//        print("item count - \(self.itemList.count)")
         NSKeyedArchiver.archiveRootObject(self.itemList, toFile: filePath)
     }
     

@@ -73,7 +73,7 @@ class FormFactor {
     
     class func getMainVCFFValues() -> (viewWidth: CGFloat, viewHeight: CGFloat, rowHeight: CGFloat, viewCenter: CGFloat, buttonWidthHeight: CGFloat, titleDescFontSize: CGFloat, titleNameFontSize: CGFloat) {
         
-        print("device - \(deviceString)")
+//        print("device - \(deviceString)")
         
         let viewFrameRect: CGRect = UIScreen.main.bounds
         let viewWidth: CGFloat = viewFrameRect.width

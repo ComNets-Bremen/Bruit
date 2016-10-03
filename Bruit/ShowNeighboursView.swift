@@ -115,7 +115,7 @@ extension ShowNeighboursView: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("You selected cell #\((indexPath as NSIndexPath).row)!")
+//        print("You selected cell #\((indexPath as NSIndexPath).row)!")
     }
     
 }
