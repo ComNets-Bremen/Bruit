@@ -3,7 +3,6 @@
 //  Bruit
 //
 //  Created by Asanga Udugama on 05/02/16.
-//  Copyright © 2016 Asanga Udugama. All rights reserved.
 //
 
 import Foundation
